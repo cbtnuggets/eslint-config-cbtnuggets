@@ -100,5 +100,8 @@ module.exports = {
         "max-statements": [1, 30],
         // Warn if lines are longer than 160 characters
         "max-len": [1, 160]
-    }
+    },
+    "extends": [
+      "eslint:recommended"
+    ]
 };
