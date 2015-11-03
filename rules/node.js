@@ -5,6 +5,7 @@
 // Additional parameters are rule-specific
 // If you add a rule, add a short description of it as well.
 // For more info just google "eslint" and the name of the rule
+//    or view the ESLint rules documentation: http://eslint.org/docs/rules/
 module.exports = {
     "env": {
         "node": true
