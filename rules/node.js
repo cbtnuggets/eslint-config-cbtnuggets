@@ -7,9 +7,6 @@
 // For more info just google "eslint" and the name of the rule
 //    or view the ESLint rules documentation: http://eslint.org/docs/rules/
 module.exports = {
-    "env": {
-        "node": true
-    },
     "rules": {
         //
         // Disabled rules
