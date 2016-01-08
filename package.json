@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cbtnuggets",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Base eslint configuration for cbtnuggets",
   "main": "index.js",
   "publishConfig": {"registry":"http://npm.aws.cbtnuggets.com"},
