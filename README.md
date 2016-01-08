@@ -12,7 +12,12 @@ npm install --save-dev eslint-config-cbtnuggets
 Then, in the same directory as package.json, create an .eslintrc file like this:
 
 ```
+//For Node:
 {
-  "extends": "./node_modules/eslint-config-cbtnuggets/index.js"
+  "extends": "eslint-config-cbtnuggets/rules/node"
+}
+//For React:
+{
+  "extends": "eslint-config-cbtnuggets/rules/react"
 }
 ```
