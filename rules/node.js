@@ -1,4 +1,4 @@
-// The first parameter in each rule specifies whether that rule is off, on as a warning, or on as an error 
+// The first parameter in each rule specifies whether that rule is off, on as a warning, or on as an error
 // 0 - turn the rule off
 // 1 - turn the rule on as a warning (doesn't affect exit code)
 // 2 - turn the rule on as an error (exit code is 1 when triggered)
@@ -79,6 +79,8 @@ module.exports = {
         "space-before-function-paren": [2, {"anonymous": "always", "named": "never"}],
         // Disallowing spaces to the right of ( and to the left of )
         "space-in-parens": [2, "never"],
+        // Require space on either side of an operator
+        "space-infix-ops": 2,
         // Enforce spaces following return, throw, and case.
         "space-return-throw-case": 2,
         // Enforce spaces after unary word operators such as: new, delete, typeof, void, yield
