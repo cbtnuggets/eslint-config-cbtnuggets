@@ -11,7 +11,7 @@
   },
   "author": "",
   "homepage": "https://github.com/cbtnuggets/lib-eslint-config",
-  "devDependencies": {
+  "peerDependencies": {
     "eslint": "^1.8.0",
     "eslint-plugin-babel": "^3.0.0",
     "eslint-plugin-react": "^3.11.3"
