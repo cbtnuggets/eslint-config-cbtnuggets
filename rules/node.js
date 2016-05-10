@@ -51,6 +51,8 @@ module.exports = {
         "key-spacing": [2, {"beforeColon": false, "afterColon": true, "mode": "strict"}],
         // Disallow array construction with 'new'
         "no-array-constructor": 2,
+        // Warning if a console is left in code
+        "no-console": 1,
         // Disallow extending native objects
         "no-extend-native": 2,
         // Disallow spacing and tabs for indention
@@ -71,8 +73,8 @@ module.exports = {
         "quotes": [2, "single", "avoid-escape"],
         // Enforce semi-colons at the end of all statements
         "semi": [2, "always"],
-        // Enforce at least one space after keywords if, else, for, while, do, switch, try, catch, finally, and with.
-        "space-after-keywords": [2, "always"],
+        // This rule enforces consistent spacing around keywords and keyword-like tokens if, else, for, while, do, switch, try, catch, finally, and with.
+        "keyword-spacing": [2, {"before": true, "after": true}],
         // Enforce a space before the opening brace of a block
         "space-before-blocks": [2, "always"],
         // Enforce a space before anonymous functions opening paren, disallow a space before a named function opening paren
@@ -81,8 +83,6 @@ module.exports = {
         "space-in-parens": [2, "never"],
         // Require space on either side of an operator
         "space-infix-ops": 2,
-        // Enforce spaces following return, throw, and case.
-        "space-return-throw-case": 2,
         // Enforce spaces after unary word operators such as: new, delete, typeof, void, yield
         // Disallow spaces before or after no-word unary ops like  -, +, --, ++, !, !!
         "space-unary-ops": [2, {"words": true, "nonwords": false}],
