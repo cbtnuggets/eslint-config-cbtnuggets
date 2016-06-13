@@ -7,6 +7,7 @@ To use in your node project run:
 
 ```
 npm install --save-dev eslint-config-cbtnuggets
+npm install --save-dev eslint@1.10.3
 ```
 
 Then, in the same directory as package.json, create an .eslintrc file like this:
