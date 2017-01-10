@@ -3,17 +3,28 @@
   "version": "4.0.1-dev",
   "description": "Base eslint configuration for cbtnuggets",
   "main": "index.js",
-  "publishConfig": {"registry":"http://npm.aws.cbtnuggets.com"},
-  "private" : false,
+  "publishConfig": {
+    "registry": "http://npm.aws.cbtnuggets.com"
+  },
+  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/cbtnuggets/lib-eslint-config.git"
   },
   "author": "",
   "homepage": "https://github.com/cbtnuggets/lib-eslint-config",
-  "devDependencies": {
-    "eslint": "^1.8.0",
-    "eslint-plugin-babel": "^3.0.0",
-    "eslint-plugin-react": "^3.11.3"
+  "dependencies": {
+    "eslint": "^3.2.2",
+    "eslint-plugin-class-property": "^1.0.1",
+    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-plugin-class-property": "^1.0.1",
+    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.0.0"
   }
 }
