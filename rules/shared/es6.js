@@ -37,7 +37,7 @@ module.exports = {
     // disallow arrow functions where they could be confused with comparisons
     // http://eslint.org/docs/rules/no-confusing-arrow
     'no-confusing-arrow': ['error', {
-      allowParens: true,
+      allowParens: true
     }],
 
     // disallow modifying variables that are declared using const
@@ -76,7 +76,7 @@ module.exports = {
     'no-useless-rename': ['error', {
       ignoreDestructuring: false,
       ignoreImport: false,
-      ignoreExport: false,
+      ignoreExport: false
     }],
 
     // require let or const instead of var
@@ -86,24 +86,23 @@ module.exports = {
     // http://eslint.org/docs/rules/object-shorthand
     'object-shorthand': ['error', 'always', {
       ignoreConstructors: false,
-      avoidQuotes: true,
+      avoidQuotes: true
     }],
 
     // suggest using arrow functions as callbacks
-    'prefer-arrow-callback': ['error', {
+    'prefer-arrow-callback': ['off', {
       allowNamedFunctions: false,
-      allowUnboundThis: true,
+      allowUnboundThis: true
     }],
 
     // suggest using of const declaration for variables that are never modified after declared
     'prefer-const': ['error', {
       destructuring: 'any',
-      ignoreReadBeforeAssign: true,
+      ignoreReadBeforeAssign: true
     }],
 
     // suggest using Reflect methods where applicable
     // http://eslint.org/docs/rules/prefer-reflect
-    // TODO: enable
     'prefer-reflect': 'off',
 
     // use rest parameters instead of arguments
@@ -131,7 +130,7 @@ module.exports = {
     'sort-imports': ['off', {
       ignoreCase: false,
       ignoreMemberSort: false,
-      memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
+      memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single']
     }],
 
     // enforce usage of spacing in template strings

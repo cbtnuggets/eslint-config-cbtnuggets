@@ -7,9 +7,9 @@ module.exports = {
     // enforce return after a callback
     'callback-return': 'off',
 
-    // require all requires be top-level
+    // warn on requires not at top-level
     // http://eslint.org/docs/rules/global-require
-    'global-require': 'error',
+    'global-require': 'warn',
 
     // enforces error handling in callbacks (node environment)
     'handle-callback-err': 'off',
@@ -34,6 +34,6 @@ module.exports = {
     'no-restricted-modules': 'off',
 
     // disallow use of synchronous methods (off by default)
-    'no-sync': 'off',
+    'no-sync': 'off'
   }
 };

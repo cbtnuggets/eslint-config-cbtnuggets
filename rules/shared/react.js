@@ -4,8 +4,8 @@ module.exports = {
   ],
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
-    },
+      jsx: true
+    }
   },
   ecmaFeatures: {
     jsx: true
@@ -42,7 +42,7 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
     'react/jsx-handler-names': [0, {
       eventHandlerPrefix: 'handle',
-      eventHandlerPropPrefix: 'on',
+      eventHandlerPropPrefix: 'on'
     }],
 
     // Validate props indentation in JSX
@@ -62,7 +62,7 @@ module.exports = {
     'react/jsx-no-bind': [2, {
       ignoreRefs: true,
       allowArrowFunctions: true,
-      allowBind: false,
+      allowBind: false
     }],
 
     // Prevent duplicate props in JSX
@@ -81,7 +81,7 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
     'react/jsx-pascal-case': [2, {
       allowAllCaps: true,
-      ignore: [],
+      ignore: []
     }],
 
     // Enforce propTypes declarations alphabetical sorting
@@ -89,7 +89,7 @@ module.exports = {
     'react/sort-prop-types': [0, {
       ignoreCase: false,
       callbacksLast: false,
-      requiredFirst: false,
+      requiredFirst: false
     }],
 
     // Deprecated in favor of react/jsx-sort-props
@@ -101,7 +101,7 @@ module.exports = {
       ignoreCase: false,
       callbacksLast: false,
       shorthandFirst: false,
-      shorthandLast: false,
+      shorthandLast: false
     }],
 
     // Prevent React to be incorrectly marked as unused
@@ -138,7 +138,7 @@ module.exports = {
 
     // Prevent multiple component definition per file
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md
-    'react/no-multi-comp': [2, { ignoreStateless: true }],
+    'react/no-multi-comp': [0, { ignoreStateless: true }],
 
     // Prevent usage of setState
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-set-state.md
@@ -238,7 +238,7 @@ module.exports = {
 
     // warn against using findDOMNode()
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-find-dom-node.md
-    'react/no-find-dom-node': 2,
+    'react/no-find-dom-node': 2
   },
 
   settings: {
@@ -250,6 +250,6 @@ module.exports = {
     react: {
       pragma: 'React',
       version: '0.14'
-    },
+    }
   }
 };
