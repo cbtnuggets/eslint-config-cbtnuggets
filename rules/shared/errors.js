@@ -1,15 +1,15 @@
 module.exports = {
   rules: {
-    // require trailing commas in multiline object literals
-    'comma-dangle': ['error', 'always-multiline'],
+    // no dangling commas
+    'comma-dangle': ['error', 'never'],
 
     // disallow assignment in conditional expressions
     'no-cond-assign': ['error', 'always'],
 
-    // disallow use of console
+    // warn on use of console
     'no-console': 'warn',
 
-    // disallow use of constant expressions in conditions
+    // warn on use of constant expressions in conditions
     'no-constant-condition': 'warn',
 
     // disallow control characters in regular expressions
@@ -45,7 +45,7 @@ module.exports = {
     'no-extra-parens': ['off', 'all', {
       conditionalAssign: true,
       nestedBinaryExpressions: false,
-      returnAssign: false,
+      returnAssign: false
     }],
 
     // disallow unnecessary semicolons

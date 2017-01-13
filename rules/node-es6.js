@@ -3,7 +3,6 @@ module.exports = {
         './shared/best-practices',
         './shared/errors',
         './shared/es6',
-        './shared/imports',
         './shared/node',
         './shared/strict',
         './shared/style',
