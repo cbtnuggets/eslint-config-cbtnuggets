@@ -228,7 +228,7 @@ module.exports = {
         'no-with': 'error',
 
         // require use of the second argument for parseInt()
-        radix: 'error',
+        // radix: 'error',
 
         // requires to declare all vars on top of their containing scope
         'vars-on-top': 'error',
