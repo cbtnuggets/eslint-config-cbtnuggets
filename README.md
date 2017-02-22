@@ -33,10 +33,10 @@ Multiple **.eslintrc** can be used if needed.
 }
 ```
 
-#### React
+#### Node (ES6 with strict mode required)
 ```json
 {
-  "extends": "cbtnuggets/rules/react"
+  "extends": "cbtnuggets/rules/node-strict"
 }
 ```
 
@@ -44,6 +44,14 @@ Multiple **.eslintrc** can be used if needed.
 ```json
 {
   "extends": "cbtnuggets/rules/node"
+}
+```
+
+
+#### React
+```json
+{
+  "extends": "cbtnuggets/rules/react"
 }
 ```
 

@@ -7,7 +7,6 @@ module.exports = {
         './shared/errors',
         './shared/es6',
         './shared/node',
-        './shared/strict',
         './shared/style',
         './shared/variables'
     ].map(require.resolve),
@@ -23,7 +22,7 @@ module.exports = {
     ],
     rules: {
         'quotes': [2, 'single'],
-        'strict': ['error', 'global'],
+        'strict': [0, 'global'],
         'indent': 0,
         'no-trailing-spaces': 0,
         'import/prefer-default-export': 0,
