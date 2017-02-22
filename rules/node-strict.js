@@ -23,7 +23,7 @@ module.exports = {
     ],
     rules: {
         'quotes': [2, 'single'],
-        'strict': [2, 'never'],
+        'strict': ['error', 'global'],
         'indent': 0,
         'no-trailing-spaces': 0,
         'import/prefer-default-export': 0,
