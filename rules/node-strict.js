@@ -1,16 +1,12 @@
 module.exports = {
     env: {
-        browser: true
+        node: true
     },
     extends: [
         './shared/best-practices',
         './shared/errors',
         './shared/es6',
-        './shared/imports',
         './shared/node',
-        './shared/react-a11y',
-        './shared/react',
-        './shared/strict',
         './shared/style',
         './shared/variables'
     ].map(require.resolve),
@@ -26,20 +22,8 @@ module.exports = {
     ],
     rules: {
         'quotes': [2, 'single'],
-        'strict': [2, 'never'],
-        'react/jsx-no-bind': 0,
+        'strict': [0, 'global'],
         'indent': 0,
-        'react/prefer-es6-class': 0,
-        'react/jsx-uses-react': 2,
-        'react/jsx-uses-vars': 2,
-        'react/react-in-jsx-scope': 2,
-        'react/jsx-indent': 0,
-        'react/no-string-refs': 0,
-        'react/jsx-filename-extension': 0,
-        'react/jsx-indent-props': 0,
-        'react/prop-types': 0,
-        'react/no-did-mount-set-state': 0,
-        'react/prefer-stateless-function': 0,
         'no-trailing-spaces': 0,
         'import/prefer-default-export': 0,
         'id-length': 0,
