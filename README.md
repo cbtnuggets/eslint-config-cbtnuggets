@@ -64,7 +64,7 @@ eslint ./FILE-TO-TEST.js
 
 For project level installs, run something like:
 ```bash
-eslint ./node_modules/eslint/bin/eslint.js ./FILE-TO-TEST.js
+node ./node_modules/eslint/bin/eslint.js ./FILE-TO-TEST.js
 ```
 
 
