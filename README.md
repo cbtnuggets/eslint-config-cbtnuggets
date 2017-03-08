@@ -97,6 +97,5 @@ Link to eslint-config-cbtnuggets project:
 npm link eslint-config-cbtnuggets
 ```
 
-
-
-
+#### Set up your IDE or Text Editor:
+https://cbt-confluence.cbt.nuggets:8443/display/DEV/ESLint
