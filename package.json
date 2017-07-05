@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cbtnuggets",
-  "version": "5.0.1",
+  "version": "5.0.1-dev",
   "description": "Base eslint configuration for cbtnuggets",
   "main": "index.js",
   "publishConfig": {
