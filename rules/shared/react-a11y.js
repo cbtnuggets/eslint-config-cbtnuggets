@@ -3,8 +3,10 @@ module.exports = {
     'jsx-a11y',
     'react'
   ],
-  ecmaFeatures: {
-    jsx: true
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
+    }
   },
   rules: {
     // Enforce that anchors have content
