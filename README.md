@@ -1,8 +1,6 @@
 # eslint-config-cbtnuggets
 
-Configuration for setting up the CBT ESLint rules
-
-This module has been published to the CBT Nuggets NPM Repository.
+Configuration for setting up the CBT ESLint rules.
 
 ## Install
 
