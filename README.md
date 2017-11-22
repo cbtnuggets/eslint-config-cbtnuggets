@@ -6,10 +6,18 @@ Configuration for setting up the CBT ESLint rules.
 
 #### Project Install
 
+##### With NPM
 This script will install and save (as devDependencies) everything that is needed to run our eslint rules in the project that the script is executed:
 ```bash
 export PKG=eslint-config-cbtnuggets
 npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm i "$PKG@latest" --save-dev
+```
+
+##### With Yarn
+This script will install and save (as devDependencies) everything that is needed to run our eslint rules in the project that the script is executed:
+```bash
+export PKG=eslint-config-cbtnuggets
+npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs yarn add -D "$PKG@latest"
 ```
 
 #### Global Install
