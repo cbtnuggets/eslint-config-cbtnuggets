@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cbtnuggets",
-  "version": "6.0.1",
+  "version": "7.0.0",
   "description": "Base eslint configuration for cbtnuggets",
   "main": "index.js",
   "private": false,
@@ -12,17 +12,17 @@
   "author": "",
   "homepage": "https://github.com/cbtnuggets/eslint-config-cbtnuggets",
   "dependencies": {
-    "eslint": "^3.13.1",
+    "eslint": "^4.17.0",
     "eslint-plugin-class-property": "^1.0.1",
-    "eslint-plugin-import": "^1.13.0",
-    "eslint-plugin-jsx-a11y": "^2.1.0",
-    "eslint-plugin-react": "^6.9.0"
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1"
   },
   "peerDependencies": {
-    "eslint": "^3.13.1",
+    "eslint": "^4.17.0",
     "eslint-plugin-class-property": "^1.0.1",
-    "eslint-plugin-import": "^1.13.0",
-    "eslint-plugin-jsx-a11y": "^2.1.0",
-    "eslint-plugin-react": "^6.9.0"
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1"
   }
 }
