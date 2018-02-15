@@ -1,17 +1,23 @@
 # eslint-config-cbtnuggets
 
-Configuration for setting up the CBT ESLint rules
-
-This module has been published to the CBT Nuggets NPM Repository.
+Configuration for setting up the CBT ESLint rules.
 
 ## Install
 
 #### Project Install
 
 This script will install and save (as devDependencies) everything that is needed to run our eslint rules in the project that the script is executed:
+
+##### With NPM
 ```bash
 export PKG=eslint-config-cbtnuggets
 npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm i "$PKG@latest" --save-dev
+```
+
+##### With Yarn
+```bash
+export PKG=eslint-config-cbtnuggets
+npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs yarn add -D "$PKG@latest"
 ```
 
 #### Global Install
@@ -20,6 +26,12 @@ npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/:
 export PKG=eslint-config-cbtnuggets
 npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm i -g "$PKG@latest"
 ```
+
+## Migration
+
+If migrating from an earlier version, simply running the install script again will install the latest project and all of its peerDependencies.
+
+[Go to Install](https://github.com/cbtnuggets/eslint-config-cbtnuggets#install)
 
 ## Project Settings
 
@@ -89,7 +101,7 @@ Basically install everything listed in **eslint-config-cbtnuggets** **package.js
 
 Example:
 ```bash    
-npm install "eslint"@"^3.13.1" "eslint-plugin-class-property"@"^1.0.1" "eslint-plugin-import"@"^1.13.0" "eslint-plugin-jsx-a11y"@"^2.1.0" "eslint-plugin-react"@"^6.9.0"
+npm install "eslint"@"^4.17.0" "eslint-plugin-class-property"@"^1.0.1" "eslint-plugin-import"@"^2.8.0" "eslint-plugin-jsx-a11y"@"^6.0.3" "eslint-plugin-react"@"^7.6.1"
 ```
 
 Link to eslint-config-cbtnuggets project:

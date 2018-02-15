@@ -35,6 +35,7 @@ module.exports = {
         'no-debugger': 0,
         'spaced-comment': 0,
         'no-console': 0,
-        'no-alert': 0
+        'no-alert': 0,
+        'arrow-parens':['error', 'as-needed']
     }
 };
