@@ -1,0 +1,5 @@
+# This file contains information about the repo
+# library name, the name of the job that publishes, etc.
+buildEngine: "node-6.9.1"
+type: library
+deployMethod: publish
