@@ -9,6 +9,11 @@
     "type": "git",
     "url": "https://github.com/cbtnuggets/eslint-config-cbtnuggets.git"
   },
+  "scripts": {
+    "test": "exit",
+    "build": "exit",
+    "lint": "exit"
+  },
   "author": "",
   "homepage": "https://github.com/cbtnuggets/eslint-config-cbtnuggets",
   "dependencies": {
