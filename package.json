@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cbtnuggets",
-  "version": "7.0.2",
+  "version": "7.0.3",
   "description": "Base eslint configuration for cbtnuggets",
   "main": "index.js",
   "private": false,
