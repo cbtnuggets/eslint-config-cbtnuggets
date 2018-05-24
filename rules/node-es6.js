@@ -37,6 +37,8 @@ module.exports = {
         'spaced-comment': 0,
         'no-console': 0,
         'no-alert': 0,
-        'arrow-parens':['error', 'as-needed']
+        'arrow-parens':['error', 'as-needed'],
+        'arrow-body-style': 'off',
+        'camelcase': 'warn'
     }
 };
