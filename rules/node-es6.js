@@ -9,7 +9,8 @@ module.exports = {
         './shared/node',
         './shared/strict',
         './shared/style',
-        './shared/variables'
+        './shared/variables',
+        './shared/babel'
     ].map(require.resolve),
     parserOptions: {
         ecmaFeatures: {
@@ -18,9 +19,6 @@ module.exports = {
         ecmaVersion: 7,
         sourceType: 'module'
     },
-    plugins: [
-        'class-property'
-    ],
     rules: {
         'quotes': [2, 'single'],
         'strict': [2, 'never'],
