@@ -25,21 +25,16 @@ module.exports = {
         'class-property'
     ],
     rules: {
-        'quotes': [1, 'single'],
-        'strict': [1, 'never'],
-        'indent': 1,
-        'no-trailing-spaces': 1,
-        'arrow-body-style': 'off',
-        'camelcase': 'warn',
-        'import/prefer-default-export': 'warn',
-        'import/no-named-as-default': 'warn',
-        'no-mixed-operators': 'warn',
-        'consistent-return': 0,
-        'comma-dangle': 1,
-        'spaced-comment': 1,
-        'no-use-before-define': 1,
-        'jsx-a11y/anchor-is-valid': 1,
-        'jsx-a11y/label-has-for': 1,
-        'new-cap': 1
+        'quotes': [2, 'single'],
+        'strict': [2, 'never'],
+        'indent': 2,
+        'no-trailing-spaces': 2,
+        'comma-dangle': 2,
+        'spaced-comment': 2,
+        'no-use-before-define': 2,
+        'jsx-a11y/anchor-is-valid': 2,
+        'jsx-a11y/label-has-for': 2,
+        'new-cap': 2,
+        'import/no-named-as-default': 'never'
     }
 };
