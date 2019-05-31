@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-cbtnuggets",
-  "version": "8.0.0",
-  "description": "Base eslint configuration for cbtnuggets",
+  "version": "8.1.1",
+  "description": "Base eslint configuration for CBT Nuggets",
   "main": "index.js",
   "private": false,
   "license": "MIT",

@@ -35,7 +35,7 @@ module.exports = {
         'import/no-named-as-default': 'warn',
         'no-mixed-operators': 'warn',
         'consistent-return': 0,
-        'comma-dangle': 1,
+        'comma-dangle': ['warn', 'never'],
         'spaced-comment': 1,
         'no-use-before-define': 1,
         'jsx-a11y/anchor-is-valid': 1,
