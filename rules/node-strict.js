@@ -11,19 +11,16 @@ module.exports = {
         './shared/variables'
     ].map(require.resolve),
     parserOptions: {
-        ecmaFeatures: {
-            experimentalObjectRestSpread: true
-        },
-        ecmaVersion: 7,
+        ecmaVersion: 2017,
         sourceType: 'module'
     },
     plugins: [
         'class-property'
     ],
     rules: {
-        'quotes': [2, 'single'],
-        'strict': [0, 'global'],
-        'indent': 0,
+        quotes: [2, 'single'],
+        strict: [0, 'global'],
+        indent: 0,
         'no-trailing-spaces': 0,
         'import/prefer-default-export': 0,
         'id-length': 0,

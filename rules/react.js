@@ -15,22 +15,19 @@ module.exports = {
         './shared/variables'
     ].map(require.resolve),
     parserOptions: {
-        ecmaFeatures: {
-            experimentalObjectRestSpread: true
-        },
-        ecmaVersion: 7,
+        ecmaVersion: 2017,
         sourceType: 'module'
     },
     plugins: [
         'class-property'
     ],
     rules: {
-        'quotes': [1, 'single'],
-        'strict': [1, 'never'],
-        'indent': 1,
+        quotes: [1, 'single'],
+        strict: [1, 'never'],
+        indent: 1,
         'no-trailing-spaces': 1,
         'arrow-body-style': 'off',
-        'camelcase': 'warn',
+        camelcase: 'warn',
         'import/prefer-default-export': 'warn',
         'import/no-named-as-default': 'warn',
         'no-mixed-operators': 'warn',

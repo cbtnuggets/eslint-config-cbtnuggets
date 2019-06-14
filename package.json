@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-cbtnuggets",
-  "version": "8.1.1",
+  "name": "@cbtnuggets/eslint-config-cbtnuggets",
+  "version": "8.2.0",
   "description": "Base eslint configuration for CBT Nuggets",
   "main": "index.js",
   "private": false,
@@ -10,9 +10,7 @@
     "url": "https://github.com/cbtnuggets/eslint-config-cbtnuggets.git"
   },
   "scripts": {
-    "test": "exit",
-    "build": "exit",
-    "lint": "exit"
+    "lint": "eslint ."
   },
   "author": "",
   "homepage": "https://github.com/cbtnuggets/eslint-config-cbtnuggets",
