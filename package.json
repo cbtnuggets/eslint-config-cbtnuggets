@@ -1,33 +1,33 @@
 {
-  "name": "eslint-config-cbtnuggets",
-  "version": "8.1.1",
-  "description": "Base eslint configuration for CBT Nuggets",
-  "main": "index.js",
-  "private": false,
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cbtnuggets/eslint-config-cbtnuggets.git"
-  },
-  "scripts": {
-    "test": "exit",
-    "build": "exit",
-    "lint": "exit"
-  },
-  "author": "",
-  "homepage": "https://github.com/cbtnuggets/eslint-config-cbtnuggets",
-  "dependencies": {
-    "eslint": "^5.8.0",
-    "eslint-plugin-class-property": "^1.0.1",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.6.1"
-  },
-  "peerDependencies": {
-    "eslint": "^4.17.0",
-    "eslint-plugin-class-property": "^1.0.1",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.6.1"
-  }
+    "name": "eslint-config-cbtnuggets",
+    "version": "8.2.1",
+    "description": "Base eslint configuration for CBT Nuggets",
+    "main": "index.js",
+    "private": false,
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cbtnuggets/eslint-config-cbtnuggets.git"
+    },
+    "scripts": {
+        "test": "exit",
+        "build": "exit",
+        "lint": "exit"
+    },
+    "author": "",
+    "homepage": "https://github.com/cbtnuggets/eslint-config-cbtnuggets",
+    "dependencies": {
+        "eslint": "^5.8.0",
+        "eslint-plugin-class-property": "^1.0.1",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-jsx-a11y": "^6.0.3",
+        "eslint-plugin-react": "^7.6.1"
+    },
+    "peerDependencies": {
+        "eslint": "^4.17.0",
+        "eslint-plugin-class-property": "^1.0.1",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-jsx-a11y": "^6.0.3",
+        "eslint-plugin-react": "^7.6.1"
+    }
 }
