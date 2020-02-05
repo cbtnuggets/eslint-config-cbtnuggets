@@ -216,7 +216,7 @@ module.exports = {
         },
         react: {
             pragma: 'React',
-            version: '0.16'
+            version: '16.8'
         }
     }
 };
