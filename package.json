@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-cbtnuggets",
-    "version": "8.2.1",
+    "version": "8.2.2",
     "description": "Base eslint configuration for CBT Nuggets",
     "main": "index.js",
     "private": false,
